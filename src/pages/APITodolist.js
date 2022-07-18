@@ -21,7 +21,6 @@ function APITodolist() {
         return <p>Empty list</p>
     }
 
-
     console.log(selectTodoId);
 
     return(

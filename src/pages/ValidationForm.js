@@ -7,8 +7,6 @@ function ValidationForm() {
     const [name, setName] = React.useState("")
     const [password, setPassword] = React.useState("")
     const [error, setError] = React.useState(false)
-
-
     const [form, setform] = React.useState([])
 
     const onCommentname = (e) => {
@@ -55,10 +53,7 @@ function ValidationForm() {
                 form.map((e) => <h4>{e}</h4>
                 )
             }
-
         </>
     )
-
 }
-
 export default ValidationForm

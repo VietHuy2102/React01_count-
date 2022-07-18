@@ -7,6 +7,7 @@ import Condisitional from "./pages/Condisitional";
 import APITodolist from "./pages/APITodolist";
 import Test from "./pages/Test";
 import ValidationForm from "./pages/ValidationForm";
+import ChangeMoney from "./pages/ChangeMoney";
 
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
                     <li>
                         <Link to={'validationForm-sample'}>Validation Form</Link>
                     </li>
+                    <li>
+                        <Link to={'changeMoney-sample'}>ChangeMoney</Link>
+                    </li>
 
                 </ul>`
                 <Routes>
@@ -45,6 +49,7 @@ function App() {
                     <Route exact path='apitodolist-sample' element={<APITodolist />} />
                     <Route exact path='test-sample' element={<Test />} />
                     <Route exact path='validationForm-sample' element={<ValidationForm />} />
+                    <Route exact path='changeMoney-sample' element={<ChangeMoney />} />
                 </Routes>
             </>
         </BrowserRouter>
